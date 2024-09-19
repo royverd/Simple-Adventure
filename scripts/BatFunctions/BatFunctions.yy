@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BatFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BatFunctions",
+  "parent":{
+    "name":"Enemy",
+    "path":"folders/Scripts/Enemy.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
