@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFragPlant",
-    "path":"sprites/sprFragPlant/sprFragPlant.yy",
+    "name":"sFragPlant",
+    "path":"sprites/sFragPlant/sFragPlant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

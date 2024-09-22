@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRock",
-    "path":"sprites/sprRock/sprRock.yy",
+    "name":"sRock",
+    "path":"sprites/sRock/sRock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

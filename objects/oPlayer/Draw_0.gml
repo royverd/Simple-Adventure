@@ -1,7 +1,7 @@
 /// @desc
 
 // Draw Shadow
-draw_sprite(sprShadow, 0, floor(x), floor(y));
+draw_sprite(sShadow, 0, floor(x), floor(y));
 
 // Hookshot (Pre-Player)
 if (state == PlayerStateHook) && (image_index != 3) DrawHookChain();
@@ -52,14 +52,14 @@ function DrawHookChain(){
 	{
 		draw_sprite
 		(
-			sprHookChain,
+			sHookChain,
 			0,
 			_originX + hookX - (i * hookSize * _hookDirX),
 			_originY + hookY - (i * hookSize * _hookDirY)
 		);	
 		
 	}
-	draw_sprite(sprHookBlade, image_index, _originX + hookX, _originY + hookY);
+	draw_sprite(sHookBlade, image_index, _originX + hookX, _originY + hookY);
 	
 }
 

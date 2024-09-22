@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFishy",
-    "path":"sprites/sprFishy/sprFishy.yy",
+    "name":"sFishy",
+    "path":"sprites/sFishy/sFishy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

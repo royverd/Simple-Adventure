@@ -21,7 +21,7 @@ for (var i = 1; i <= _playerHealthMax; i++)
 	}
 	
 	// HP Offset
-	draw_sprite(sprHealth, _imageIndex, 8 + ((i + 1) * 16), 8);
+	draw_sprite(sHealth, _imageIndex, 8 + ((i + 1) * 16), 8);
 	
 
 }
@@ -33,11 +33,11 @@ var _xx, _yy;
 // Coin Icon
 _xx = MARGIN + 20;
 _yy = COIN_UI_YY;
-draw_sprite(sprCoinUI, 0, _xx, _yy);
+draw_sprite(sCoinUI, 0, _xx, _yy);
 
 // Coin Text
 InitText(fText, fa_left, fa_top, c_black);
-_xx += sprite_get_width(sprCoinUI) + 4; // 4 is Magic Buffer
+_xx += sprite_get_width(sCoinUI) + 4; // 4 is Magic Buffer
 _yy = 27; // MN
 var _str = string(global.playerMoney);
 draw_text(_xx + 1, _yy, _str);
@@ -51,18 +51,18 @@ draw_text(_xx, _yy, _str);
 _xx = MARGIN;
 _yy = PLAYER_ITEM_MARGIN;
 
-draw_sprite(sprItemUIBox, 0, _xx, _yy);
+draw_sprite(sItemUIBox, 0, _xx, _yy);
 if (global.playerHasAnyItems)
 {
 	
-	draw_sprite(sprItemUI, global.playerEquipped, _xx, _yy);
+	draw_sprite(sItemUI, global.playerEquipped, _xx, _yy);
 	if (global.playerAmmo[global.playerEquipped] != EOF)
 	{
 		InitText(fAmmo, fa_right, fa_bottom, c_white);
 		draw_text
 		(
-			_xx + sprite_get_width(sprItemUIBox) + 1,
-			_yy + sprite_get_height(sprItemUIBox) + 1,
+			_xx + sprite_get_width(sItemUIBox) + 1,
+			_yy + sprite_get_height(sItemUIBox) + 1,
 			string(global.playerAmmo[global.playerEquipped])
 		)
 	}

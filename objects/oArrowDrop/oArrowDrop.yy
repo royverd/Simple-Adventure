@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprArrowDrop",
-    "path":"sprites/sprArrowDrop/sprArrowDrop.yy",
+    "name":"sArrowDrop",
+    "path":"sprites/sArrowDrop/sArrowDrop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

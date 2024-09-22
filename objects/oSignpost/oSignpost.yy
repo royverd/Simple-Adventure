@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSignpost",
-    "path":"sprites/sprSignpost/sprSignpost.yy",
+    "name":"sSignpost",
+    "path":"sprites/sSignpost/sSignpost.yy",
   },
   "spriteMaskId":null,
   "visible":true,

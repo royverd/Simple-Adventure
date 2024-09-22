@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFragRock",
-    "path":"sprites/sprFragRock/sprFragRock.yy",
+    "name":"sFragRock",
+    "path":"sprites/sFragRock/sFragRock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

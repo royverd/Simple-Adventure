@@ -3,11 +3,11 @@
 function AttackSlash(){
 	
 	// Attack Initiated
-	if (sprite_index != sprPlayerAttackSlash)
+	if (sprite_index != sPlayerAttackSlash)
 	{
 		show_debug_message("ATTACK: SLASHING");
 		// Handle Animation
-		sprite_index = sprPlayerAttackSlash;
+		sprite_index = sPlayerAttackSlash;
 		localFrame = 0;
 		image_index = 0;
 		
@@ -16,7 +16,7 @@ function AttackSlash(){
 		ds_list_clear(hitByAttack);
 	}
 	
-	CalculateAttack(sprPlayerAttackSlashHB);
+	CalculateAttack(sPlayerAttackSlashHB);
 	
 	// Update Sprite
 	PlayerAnimateSprite();
@@ -68,7 +68,7 @@ function CalculateAttack(_coll_spr){
 	
 	// Cleanup
 	ds_list_destroy(_hitByAttackNow);
-	mask_index = sprPlayer;
+	mask_index = sPlayer;
 
 }
 	

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprArrowBundleDrop",
-    "path":"sprites/sprArrowBundleDrop/sprArrowBundleDrop.yy",
+    "name":"sArrowBundleDrop",
+    "path":"sprites/sArrowBundleDrop/sArrowBundleDrop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

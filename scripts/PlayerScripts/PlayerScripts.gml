@@ -134,12 +134,12 @@ function PlayerThrow(){
 		ystart = y;
 	}
 	
-	PlayerActOutAnimation(sprPlayerLift);
+	PlayerActOutAnimation(sPlayerLift);
 	global.iLifted = noone;
 	
 	//Reset Sprite
-	spriteIdle = sprPlayer;
-	spriteRun = sprPlayerRun;
+	spriteIdle = sPlayer;
+	spriteRun = sPlayerRun;
 	
 }
 	
@@ -187,7 +187,7 @@ function PlayerDropItem(){
 	with (oPlayer)
 	{
 		global.iLifted = noone;
-		spriteIdle = sprPlayer;
-		spriteRun = sprPlayerRun;
+		sprIdle = sPlayer;
+		sprRun = sPlayerRun;
 	}
 }

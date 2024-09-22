@@ -35,5 +35,14 @@ if ((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))) && (
 	
 }
 
+/*
+// Mouse Control
+var mouse_y_gui = device_mouse_y_to_gui(0);
+if (mouse_y_gui < menu_y) && (mouse_y_gui > menu_top)
+{
+	menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
+	
+}
+*/
 
 if (keyboard_check_pressed(vk_anykey)) keyPressed = true;

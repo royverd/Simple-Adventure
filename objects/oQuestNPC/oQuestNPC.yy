@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprQuesty",
-    "path":"sprites/sprQuesty/sprQuesty.yy",
+    "name":"sQuesty",
+    "path":"sprites/sQuesty/sQuesty.yy",
   },
   "spriteMaskId":null,
   "visible":true,

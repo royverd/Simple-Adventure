@@ -2,9 +2,9 @@
 
 if (titleVisible > 0)
 {
-	draw_sprite(sprTitle, 0 ,0 , -RESOLUTION_H + titleVisible * RESOLUTION_H);
+	draw_sprite(sTitle, 0 ,0 , -RESOLUTION_H + titleVisible * RESOLUTION_H);
 	draw_set_alpha(titleVisible * abs(sin(get_timer() * 0.000001 * pi)));
-	draw_sprite(sprTitle, 1 , 0 , 0);
+	draw_sprite(sTitle, 1 , 0 , 0);
 	draw_set_alpha(1.0);
 	
 	
@@ -25,11 +25,11 @@ if (slotsVisible > 0)
 		{
 			_img = 3;
 			image_speed = 0.1;
-			draw_sprite(sprMenuPlayer, -1 , _x - 32, _y + 34); // Magic
+			draw_sprite(sMenuPlayer, -1 , _x - 32, _y + 34); // Magic
 			
 		}
 		//NineSliceBoxStretched(strTextBoxBg, _x, _y, 312, _y + 48, _img) // Magic
-		draw_sprite_stretched(sprTextBoxBg, _img, _x, _y, 312, 48);
+		draw_sprite_stretched(sTextBoxBg, _img, _x, _y, 312, 48);
 	
 		// Draw Save Data
 		InitText(fText, fa_left, fa_top, c_white);
@@ -57,12 +57,12 @@ if (slotsVisible > 0)
 					_imageIndex += (_playerHealthFrac > 0.5);
 					
 				}
-				draw_sprite(sprHealth, _imageIndex, _x + 48 + (( i - 1 ) * 16), _y + 24);
+				draw_sprite(sHealth, _imageIndex, _x + 48 + (( i - 1 ) * 16), _y + 24);
 	
 			}
 			
 			// Draw Money
-			draw_sprite(sprCoinUI, 0 , _x + 8, _y + 28); //Magic
+			draw_sprite(sCoinUI, 0 , _x + 8, _y + 28); //Magic
 			draw_text(_x + 20, _y + 24, slotData[_slot][? "playerMoney"]); // Magic
 			
 		}

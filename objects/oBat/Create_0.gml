@@ -8,8 +8,8 @@ state = ENEMYSTATE.WANDER;
 // Enemy Sprites
 sprMove = sprBat;
 sprAttack = sprBat;
-sprHurt = sprBatHurt;
-sprDie = sprBatDie;
+sprHurt = sBatHurt;
+sprDie = sBatDie;
 
 // Enemy Functions
 

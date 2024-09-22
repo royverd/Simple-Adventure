@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprShopItemUI",
-    "path":"sprites/sprShopItemUI/sprShopItemUI.yy",
+    "name":"sShopItemUI",
+    "path":"sprites/sShopItemUI/sShopItemUI.yy",
   },
   "spriteMaskId":null,
   "visible":true,

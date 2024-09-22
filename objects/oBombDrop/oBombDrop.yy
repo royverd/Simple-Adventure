@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBombDrop",
-    "path":"sprites/sprBombDrop/sprBombDrop.yy",
+    "name":"sBombDrop",
+    "path":"sprites/sBombDrop/sBombDrop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

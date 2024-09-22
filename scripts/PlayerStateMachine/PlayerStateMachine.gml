@@ -15,9 +15,9 @@ function PlayerStateFree(){
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
-		sprite_index = spriteRun;
+		sprite_index = sprRun;
 	}
-	else sprite_index = spriteIdle;
+	else sprite_index = sprIdle;
 
 	if (_oldSprite != sprite_index) localFrame = 0;
 
@@ -175,7 +175,7 @@ function PlayerStateRoll(){
 	var _collided = PlayerCollision();
 	
 	//Update Sprite
-	sprite_index = spriteRoll;
+	sprite_index = sprRoll;
 	var _totalFrames = sprite_get_number(sprite_index) / 4;
 	image_index = (CARDINAL_DIR * _totalFrames) + ((1 - (moveDistanceRemaining / distanceRoll)) * _totalFrames);
 	
@@ -206,7 +206,7 @@ function PlayerStateBonk(){
 	var _collided = PlayerCollision();
 	
 	//Update Sprite
-	if(sprite_index != sprPlayerHurt) sprite_index = sprPlayerHurt;
+	if(sprite_index != sPlayerHurt) sprite_index = sPlayerHurt;
 	image_index = CARDINAL_DIR - 2;
 	
 	// Change Height (Arc)
@@ -263,10 +263,10 @@ function PlayerStateDead(){
 	vSpeed = 0;
 	
 	// If Entering State
-	if (sprite_index != sprPlayerDie) && (sprite_index != sprPlayerDead)
+	if (sprite_index != sPlayerDie) && (sprite_index != sPlayerDead)
 	{
 		// Update Sprite
-		sprite_index = sprPlayerDie;
+		sprite_index = sPlayerDie;
 		image_index = 0;
 		image_speed = 0.7; // Gradual Fade Spin
 
@@ -275,13 +275,13 @@ function PlayerStateDead(){
 	// Animation End Frame Check
 	if (image_index + image_speed > image_number)
 	{
-		if (sprite_index == sprPlayerDie)
+		if (sprite_index == sPlayerDie)
 		{
 			image_speed = max(0, image_speed - 0.03);
 			if (image_speed < 0.07)
 			{
 				image_index = 0;
-				sprite_index = sprPlayerDead;
+				sprite_index = sPlayerDead;
 				image_speed = 1.0;
 			}
 		}
@@ -303,7 +303,7 @@ function PlayerStateHook(){
 	
 	// If Just Arriving
 	
-	if (sprite_index != sprPlayerHook)
+	if (sprite_index != sPlayerHook)
 	{
 		hook = 0;
 		hookX = 0;
@@ -312,7 +312,7 @@ function PlayerStateHook(){
 		hookedEntity = noone;
 		
 		// Update Sprite
-		sprite_index = sprPlayerHook;
+		sprite_index = sPlayerHook;
 		image_index = CARDINAL_DIR;
 		image_speed = 0;
 		

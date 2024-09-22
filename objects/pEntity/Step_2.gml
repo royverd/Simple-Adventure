@@ -6,7 +6,7 @@ if (!global.gamePaused)
 	
 	if (lifted) && (instance_exists(oPlayer))
 	{
-		if (oPlayer.sprite_index != sprPlayerLift)
+		if (oPlayer.sprite_index != sPlayerLift)
 		{
 			x = oPlayer.x;
 			y = oPlayer.y;

@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBoulder",
-    "path":"sprites/sprBoulder/sprBoulder.yy",
+    "name":"sBoulder",
+    "path":"sprites/sBoulder/sBoulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

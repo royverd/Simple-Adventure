@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlant",
-    "path":"sprites/sprPlant/sprPlant.yy",
+    "name":"sPlant",
+    "path":"sprites/sPlant/sPlant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

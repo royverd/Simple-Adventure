@@ -13,13 +13,13 @@ function ActivateHatCat(){
 				NewTextBox("Wow, you found my hat without me even asking you to!", 2);
 				NewTextBox("You are a true hero indeed!", 2);
 				global.questStatus[? "SimpleFavor"] = 2;
-				with (oQuestNPC) sprite_index = sprQuestyHat;
+				with (oQuestNPC) sprite_index = sQuestyHat;
 				with (oHat) instance_destroy();
 				global.iLifted = noone;
 				with (oPlayer)
 				{	
-					spriteIdle = sprPlayer;
-					spriteRun = sprPlayerRun;
+					sprIdle = sPlayer;
+					sprRun = sPlayerRun;
 				}
 			}
 			else
@@ -41,13 +41,13 @@ function ActivateHatCat(){
 				NewTextBox("Wow, you found my hat!", 2);
 				NewTextBox("You are a hero!", 2);
 				global.questStatus[? "SimpleFavor"] = 2;
-				with (oQuestNPC) sprite_index = sprQuestyHat;
+				with (oQuestNPC) sprite_index = sQuestyHat;
 				with (oHat) instance_destroy();
 				global.iLifted = noone;
 				with (oPlayer)
 				{	
-					spriteIdle = sprPlayer;
-					spriteRun = sprPlayerRun;
+					sprIdle = sPlayer;
+					sprRun = sPlayerRun;
 				}
 			}
 			else

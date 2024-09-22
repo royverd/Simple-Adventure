@@ -23,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprTilesCave",
-    "path":"sprites/sprTilesCave/sprTilesCave.yy",
+    "name":"sTilesCave",
+    "path":"sprites/sTilesCave/sTilesCave.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

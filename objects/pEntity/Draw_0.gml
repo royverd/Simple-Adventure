@@ -1,6 +1,6 @@
 /// @desc
 
-if (entShadow) draw_sprite(sprShadow, 0, x, y);
+if (entShadow) draw_sprite(sShadow, 0, x, y);
 
 if (flash != NULL)
 {

@@ -88,10 +88,10 @@ function ActivateLiftable(_id){
 	// If not Carrying Anything
 	if (global.iLifted == noone)
 	{
-		PlayerActOutAnimation(sprPlayerLift);
+		PlayerActOutAnimation(sPlayerLift);
 		
-		spriteIdle = sprPlayerCarry;
-		spriteRun = sprPlayerRunCarry;
+		sprIdle = sPlayerCarry;
+		sprRun = sPlayerRunCarry;
 		
 		global.iLifted = _id;
 		

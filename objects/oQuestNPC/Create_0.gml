@@ -8,7 +8,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (global.questStatus[? "SimpleFavor"] == 2) sprite_index = sprQuestyHat;
+if (global.questStatus[? "SimpleFavor"] == 2) sprite_index = sQuestyHat;
 
 image_speed = 0;
 image_index = 3;

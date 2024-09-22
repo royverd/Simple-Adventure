@@ -29,9 +29,9 @@ distanceBonk = 30;
 distanceBonkHeight = 12;
 distanceHook = 88;
 
-spriteRun = sprPlayerRun;
-spriteIdle = sprPlayer;
-spriteRoll = sprPlayerRoll;
+sprRun = sPlayerRun;
+sprIdle = sPlayer;
+sprRoll = sPlayerRoll;
 
 localFrame = 0;
 animationEndScript = EOF;
@@ -39,7 +39,7 @@ animationEndScript = EOF;
 hook = 0;
 hookX = 0;
 hookY = 0;
-hookSize = sprite_get_width(sprHookChain);
+hookSize = sprite_get_width(sHookChain);
 
 if (global.targetX != EOF)
 {
@@ -52,9 +52,9 @@ if (global.targetX != EOF)
 
 if (global.iLifted != noone)
 {
-	spriteIdle = sprPlayerCarry;
-	spriteRun = sprPlayerRunCarry;
-	sprite_index = spriteIdle;
+	sprIdle = sPlayerCarry;
+	sprRun = sPlayerRunCarry;
+	sprite_index = sprIdle;
 	
 }
 

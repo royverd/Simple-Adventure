@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprExplode",
-    "path":"sprites/sprExplode/sprExplode.yy",
+    "name":"sExplode",
+    "path":"sprites/sExplode/sExplode.yy",
   },
   "spriteMaskId":null,
   "visible":true,

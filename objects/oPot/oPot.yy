@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPot",
-    "path":"sprites/sprPot/sprPot.yy",
+    "name":"sPot",
+    "path":"sprites/sPot/sPot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

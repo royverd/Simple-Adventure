@@ -1,6 +1,6 @@
 /// @desc Draw Textbox
 
-draw_sprite_stretched(sprTextBoxBg, background, x1, y1, x2 - x1, y2 - y1)
+draw_sprite_stretched(sTextBoxBg, background, x1, y1, x2 - x1, y2 - y1)
 InitText(fText, fa_center, fa_top, c_black);
 
 // Message

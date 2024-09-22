@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFragPot",
-    "path":"sprites/sprFragPot/sprFragPot.yy",
+    "name":"sFragPot",
+    "path":"sprites/sFragPot/sFragPot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

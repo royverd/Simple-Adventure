@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprCoin",
-    "path":"sprites/sprCoin/sprCoin.yy",
+    "name":"sCoin",
+    "path":"sprites/sCoin/sCoin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

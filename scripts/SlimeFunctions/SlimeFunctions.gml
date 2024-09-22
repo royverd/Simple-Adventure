@@ -96,7 +96,7 @@ function SlimeChase() {
 	if (instance_exists(target)) && (point_distance(x, y, target.x, target.y) <= enemyAttackRadius)
 	{
 		state = ENEMYSTATE.ATTACK;
-		sprite_index = sprAttack;
+		sprite_index = spriteAttack;
 		image_index = 0;
 		image_speed = 1.0;
 		

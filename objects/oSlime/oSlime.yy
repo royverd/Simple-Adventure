@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprSlime",
-    "path":"sprites/sprSlime/sprSlime.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBomb",
-    "path":"sprites/sprBomb/sprBomb.yy",
+    "name":"sBomb",
+    "path":"sprites/sBomb/sBomb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

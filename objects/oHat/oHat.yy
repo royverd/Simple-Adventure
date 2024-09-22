@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprHat",
-    "path":"sprites/sprHat/sprHat.yy",
+    "name":"sHat",
+    "path":"sprites/sHat/sHat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

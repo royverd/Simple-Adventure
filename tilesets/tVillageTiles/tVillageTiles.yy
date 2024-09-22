@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprVillageTiles",
-    "path":"sprites/sprVillageTiles/sprVillageTiles.yy",
+    "name":"sVillageTiles",
+    "path":"sprites/sVillageTiles/sVillageTiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

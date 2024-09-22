@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlantB",
-    "path":"sprites/sprPlantB/sprPlantB.yy",
+    "name":"sPlantB",
+    "path":"sprites/sPlantB/sPlantB.yy",
   },
   "spriteMaskId":null,
   "visible":true,
